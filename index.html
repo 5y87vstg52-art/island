@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Island Holding — Cayo Perico</title>
+  <meta name="description" content="Island Holding : le groupe d'entreprises de Cayo Perico. Découvrez nos sociétés, nos services et les contacts à joindre.">
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="is-loading">
+
+  <!-- Logo réutilisable partout via <use href="#logo"> -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="logo" viewBox="0 0 64 64">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="32" cy="32" r="29"/>
+        <path d="M15 41a10 10 0 0 1 20 0"/>
+        <path d="M42 42c0-8 1-15 4-22"/>
+        <path d="M46 20c-4-3-9-3-12 1"/>
+        <path d="M46 20c3-4 8-4 11-1"/>
+        <path d="M46 20c-1-4-4-6-8-7"/>
+        <path d="M46 20c3 0 6 2 8 6"/>
+        <path d="M8 45q4-3 8 0t8 0t8 0t8 0t8 0t8 0"/>
+        <path d="M13 51q4-3 8 0t8 0t8 0t8 0t8 0"/>
+      </g>
+    </symbol>
+  </svg>
+
+  <!-- Écran d'introduction -->
+  <div class="loader" aria-hidden="true">
+    <svg class="loader__logo"><use href="#logo"/></svg>
+    <span class="loader__name">Island Holding</span>
+  </div>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <a href="#accueil" class="brand" aria-label="Island Holding, retour à l'accueil">
+      <svg class="brand__logo"><use href="#logo"/></svg>
+      <span class="brand__text">Island <em>Holding</em></span>
+    </a>
+    <button class="nav__toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span>
+    </button>
+    <nav class="nav__menu" id="menu">
+      <a href="#holding">La holding</a>
+      <a href="#entreprises">Nos entreprises</a>
+      <a href="#contacts">Contacts</a>
+      <a href="#rejoindre" class="nav__cta">Nous rejoindre</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="accueil">
+    <div class="hero__sky">
+      <div class="hero__stars"></div>
+      <div class="hero__sun" data-parallax="0.25"></div>
+    </div>
+
+    <svg class="hero__island" data-parallax="0.12" viewBox="0 0 1440 320" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+      <path class="island-far" d="M0 300 C120 270 220 262 330 275 C420 286 470 292 540 300 Z"/>
+      <path class="island-main" d="M760 300 C820 262 880 214 950 182 C995 162 1030 120 1075 112 C1120 104 1150 150 1185 170 C1250 206 1320 250 1400 300 Z"/>
+      <g class="palm palm--1">
+        <path d="M1215 214 C1210 180 1206 150 1214 118" class="palm__trunk"/>
+        <path d="M1214 118 C1196 104 1172 104 1158 116 C1178 110 1198 114 1214 118 Z"/>
+        <path d="M1214 118 C1230 100 1254 98 1268 108 C1248 106 1230 110 1214 118 Z"/>
+        <path d="M1214 118 C1206 98 1190 88 1172 86 C1190 96 1204 106 1214 118 Z"/>
+        <path d="M1214 118 C1232 116 1250 126 1258 142 C1244 130 1230 122 1214 118 Z"/>
+        <path d="M1214 118 C1198 120 1184 132 1178 148 C1190 134 1202 124 1214 118 Z"/>
+      </g>
+      <g class="palm palm--2">
+        <path d="M1262 238 C1262 214 1266 192 1278 170" class="palm__trunk"/>
+        <path d="M1278 170 C1264 158 1246 158 1234 168 C1250 164 1266 166 1278 170 Z"/>
+        <path d="M1278 170 C1292 156 1310 154 1322 162 C1306 162 1292 164 1278 170 Z"/>
+        <path d="M1278 170 C1272 154 1260 146 1246 144 C1260 152 1270 160 1278 170 Z"/>
+        <path d="M1278 170 C1292 170 1306 178 1312 190 C1300 182 1290 174 1278 170 Z"/>
+      </g>
+    </svg>
+
+    <div class="waves" aria-hidden="true">
+      <svg class="wave wave--1" viewBox="0 0 2880 120" preserveAspectRatio="none"><path d="M0 60 Q180 20 360 60 T720 60 T1080 60 T1440 60 T1800 60 T2160 60 T2520 60 T2880 60 V120 H0 Z"/></svg>
+      <svg class="wave wave--2" viewBox="0 0 2880 120" preserveAspectRatio="none"><path d="M0 60 Q180 20 360 60 T720 60 T1080 60 T1440 60 T1800 60 T2160 60 T2520 60 T2880 60 V120 H0 Z"/></svg>
+      <svg class="wave wave--3" viewBox="0 0 2880 120" preserveAspectRatio="none"><path d="M0 60 Q180 20 360 60 T720 60 T1080 60 T1440 60 T1800 60 T2160 60 T2520 60 T2880 60 V120 H0 Z"/></svg>
+    </div>
+
+    <div class="hero__content">
+      <p class="eyebrow hero__eyebrow">Cayo Perico · Groupe d'entreprises</p>
+      <h1 class="hero__title">
+        <span class="line"><span>Island</span></span>
+        <span class="line"><span><em>Holding</em></span></span>
+      </h1>
+      <p class="hero__lead">Une seule île, plusieurs savoir-faire.<br>Retrouvez toutes les entreprises du groupe et les contacts à joindre pour chacun de leurs services.</p>
+      <div class="hero__actions">
+        <a href="#entreprises" class="btn btn--light">Découvrir nos entreprises</a>
+        <a href="#contacts" class="btn btn--ghost">Annuaire des contacts</a>
+      </div>
+    </div>
+
+    <a href="#holding" class="scroll-hint" aria-label="Défiler vers la suite">
+      <span></span>
+    </a>
+  </section>
+
+  <main>
+    <!-- La holding -->
+    <section class="section about" id="holding">
+      <div class="container about__grid">
+        <div class="about__text">
+          <p class="eyebrow reveal">La holding</p>
+          <h2 class="section__title reveal">Née sur l'île,<br><em>tournée vers la ville.</em></h2>
+          <p class="reveal">Island Holding rassemble sous une même bannière des entreprises indépendantes, toutes liées à Cayo Perico. Chacune garde son identité et son équipe ; la holding leur apporte une direction commune, des moyens partagés et une image soignée.</p>
+          <p class="reveal">Notre objectif est simple : que vous trouviez en un coup d'œil le bon service et la bonne personne à appeler.</p>
+        </div>
+        <div class="about__visual reveal">
+          <div class="emblem">
+            <svg class="emblem__logo"><use href="#logo"/></svg>
+            <div class="emblem__ring"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container stats">
+        <div class="stat reveal">
+          <span class="stat__value" data-count="0" id="stat-entreprises">0</span>
+          <span class="stat__label">Entreprises</span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat__value" data-count="0" id="stat-secteurs">0</span>
+          <span class="stat__label">Secteurs d'activité</span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat__value">24<small>/7</small></span>
+          <span class="stat__label">Joignables</span>
+        </div>
+      </div>
+
+      <div class="container pillars">
+        <article class="pillar reveal">
+          <span class="pillar__num">01</span>
+          <h3>Confiance</h3>
+          <p>Des entreprises sérieuses, des tarifs clairs et des engagements tenus.</p>
+        </article>
+        <article class="pillar reveal">
+          <span class="pillar__num">02</span>
+          <h3>Proximité</h3>
+          <p>Un contact direct pour chaque service, sans intermédiaire inutile.</p>
+        </article>
+        <article class="pillar reveal">
+          <span class="pillar__num">03</span>
+          <h3>Discrétion</h3>
+          <p>Comme l'île qui nous a vus naître : élégante, calme et maîtrisée.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Entreprises -->
+    <section class="section companies" id="entreprises">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow reveal">Nos entreprises</p>
+          <h2 class="section__title reveal">Les sociétés <em>du groupe</em></h2>
+          <p class="section__intro reveal">Chaque entreprise est autonome et reste votre interlocuteur direct. Cliquez sur une fiche pour voir ses services.</p>
+        </div>
+        <div class="filters reveal" id="filters" role="tablist" aria-label="Filtrer par secteur"></div>
+        <div class="cards" id="cards"></div>
+      </div>
+    </section>
+
+    <!-- Contacts -->
+    <section class="section contacts" id="contacts">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow reveal">Annuaire</p>
+          <h2 class="section__title reveal">Qui <em>appeler ?</em></h2>
+          <p class="section__intro reveal">Tous les numéros utiles du groupe. Un clic sur un numéro le copie.</p>
+        </div>
+        <div class="directory reveal" id="directory"></div>
+      </div>
+    </section>
+
+    <!-- Rejoindre -->
+    <section class="section join" id="rejoindre">
+      <div class="container join__inner reveal">
+        <svg class="join__logo"><use href="#logo"/></svg>
+        <h2 class="section__title">Votre entreprise a sa place <em>sur l'île.</em></h2>
+        <p>Vous dirigez une entreprise et souhaitez rejoindre Island Holding ? Contactez la direction pour en discuter.</p>
+        <button class="btn btn--gold copy" data-copy="" id="join-phone">Contacter la direction</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#accueil" class="brand brand--footer">
+        <svg class="brand__logo"><use href="#logo"/></svg>
+        <span class="brand__text">Island <em>Holding</em></span>
+      </a>
+      <nav class="footer__links">
+        <a href="#holding">La holding</a>
+        <a href="#entreprises">Entreprises</a>
+        <a href="#contacts">Contacts</a>
+      </nav>
+      <p class="footer__note">Projet de jeu de rôle (RP) fictif, non affilié à Rockstar Games.<br>© <span id="year"></span> Island Holding · Cayo Perico</p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

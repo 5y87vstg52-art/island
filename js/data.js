@@ -4,7 +4,7 @@
    - direction : contact principal de la holding
    - entreprises : une entrée par société du groupe
        statut : "ouvert" ou "bientot"
-       icone  : bateau | hotel | bouclier | maison | voiture | cocktail | outils | avion | licorne
+       icone  : bateau | hotel | bouclier | maison | voiture | cocktail | outils | avion | licorne | balance
    Les entreprises ci-dessous sont des EXEMPLES à remplacer.
    ========================================================= */
 
@@ -50,6 +50,17 @@ window.ISLAND_DATA = {
       responsable: "Tony",
       telephone: "555-0105",
       horaires: "Le soir"
+    },
+    {
+      nom: "Island Cabinet",
+      secteur: "Juridique",
+      statut: "ouvert",
+      icone: "balance",
+      description: "Le cabinet d'avocats du groupe : conseil, défense et accompagnement juridique des particuliers comme des entreprises.",
+      services: ["Défense pénale", "Conseil juridique", "Contrats et droit des entreprises"],
+      responsable: "Max Carter",
+      telephone: "555-0106",
+      horaires: "Sur rendez-vous"
     },
     {
       nom: "Island Sécurité",

@@ -13,7 +13,8 @@
     cocktail: '<path d="M4 4h16l-8 9z"/><path d="M12 13v7"/><path d="M8 20h8"/>',
     outils: '<path d="M14 7l3-3 3 3-3 3"/><path d="M17 7L5 19"/><path d="M4 4l5 5"/><path d="M15 15l5 5"/>',
     avion: '<path d="M2 16l20-8-8 12-2-6z"/>',
-    licorne: '<path d="M8 21c-1-5 0-9 3-12"/><path d="M11 9V5.5l2 2.5"/><path d="M14 8l5-6"/><path d="M13 8c2.5 1 4.5 3.5 6 6.5l-1.2 1.5c-1.8 0-3.3-.6-4.8-1.2"/><path d="M13 14.8c0 2.2.8 4.2 2 6.2"/><path d="M10 11.5c-1.3 1-2 2.5-2.2 4"/><path d="M15 11h.01"/>'
+    balance: '<path d="M12 4v17"/><path d="M8 21h8"/><path d="M4 7h16"/><path d="M12 3.5h.01"/><path d="M4 7l-2.5 6M4 7l2.5 6"/><path d="M1.5 13a2.5 2.5 0 0 0 5 0"/><path d="M20 7l-2.5 6M20 7l2.5 6"/><path d="M17.5 13a2.5 2.5 0 0 0 5 0"/>',
+    licorne:'<path d="M8 21c-1-5 0-9 3-12"/><path d="M11 9V5.5l2 2.5"/><path d="M14 8l5-6"/><path d="M13 8c2.5 1 4.5 3.5 6 6.5l-1.2 1.5c-1.8 0-3.3-.6-4.8-1.2"/><path d="M13 14.8c0 2.2.8 4.2 2 6.2"/><path d="M10 11.5c-1.3 1-2 2.5-2.2 4"/><path d="M15 11h.01"/>'
   };
   const icon = (name) =>
     `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">${ICONS[name] || ICONS.outils}</svg>`;

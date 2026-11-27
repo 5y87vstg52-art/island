@@ -4,7 +4,7 @@
    - direction : contact principal de la holding
    - entreprises : une entrée par société du groupe
        statut : "ouvert" ou "bientot"
-       icone  : bateau | hotel | bouclier | maison | voiture | cocktail | outils | avion
+       icone  : bateau | hotel | bouclier | maison | voiture | cocktail | outils | avion | licorne
    Les entreprises ci-dessous sont des EXEMPLES à remplacer.
    ========================================================= */
 
@@ -44,7 +44,7 @@ window.ISLAND_DATA = {
       nom: "Unicorn",
       secteur: "Divertissement",
       statut: "ouvert",
-      icone: "cocktail",
+      icone: "licorne",
       description: "La boîte de nuit du groupe : musique, ambiance et soirées jusqu'au bout de la nuit.",
       services: ["Soirées & DJ", "Carré VIP et réservations", "Privatisation pour événements"],
       responsable: "Tony",

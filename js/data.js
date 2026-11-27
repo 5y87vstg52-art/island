@@ -41,6 +41,17 @@ window.ISLAND_DATA = {
       horaires: "18h – 4h"
     },
     {
+      nom: "Unicorn",
+      secteur: "Divertissement",
+      statut: "ouvert",
+      icone: "cocktail",
+      description: "La boîte de nuit du groupe : musique, ambiance et soirées jusqu'au bout de la nuit.",
+      services: ["Soirées & DJ", "Carré VIP et réservations", "Privatisation pour événements"],
+      responsable: "Tony",
+      telephone: "555-0105",
+      horaires: "Le soir"
+    },
+    {
       nom: "Island Sécurité",
       secteur: "Sécurité",
       statut: "ouvert",
